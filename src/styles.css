@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+hr {
+  margin: 1rem;
+}
+h1 {
+  text-align: left;
+  padding: 2rem;
+}
+
+.container {
+  padding: 0.5rem 3rem;
+}
+
+.container-center {
+  margin: auto;
+}
+
+.card {
+  padding: 1rem;
+  color: white;
+  background-image: linear-gradient(45deg, #7175da, #9790f2);
+}
+
+.inlineList {
+  display: inline;
+  padding: 0.5rem;
+}
+
+.dropDown {
+  padding: 0.3rem;
+  list-style-type: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+button {
+  background-color: white;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  box-shadow: 1rem;
+}
