@@ -1,28 +1,30 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  margin: auto;
+  padding: 1rem;
 }
 
 hr {
   margin: 1rem;
 }
-h1 {
-  text-align: left;
-  padding: 2rem;
-}
 
 .container {
-  padding: 0.5rem 3rem;
+  padding: 1rem 5rem;
 }
 
 .container-center {
+  max-width: 500px;
   margin: auto;
 }
 
 .card {
-  padding: 1rem;
-  color: white;
-  background-image: linear-gradient(45deg, #7175da, #9790f2);
+  padding: 0.5rem;
+  color: black;
+  background-color: #e5e7eb;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 70%;
+  border: 1px solid #d1d5db;
 }
 
 .inlineList {
@@ -31,31 +33,16 @@ h1 {
 }
 
 .dropDown {
-  padding: 0.3rem;
+  padding: 0.2rem;
   list-style-type: none;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 button {
   background-color: white;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   box-shadow: 1rem;
+  border: 1px solid black;
+  padding: 0.3rem;
+  margin: 0.2rem;
 }
