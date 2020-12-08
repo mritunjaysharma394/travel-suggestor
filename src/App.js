@@ -42,9 +42,11 @@ export default function App() {
         <span role="img" aria-label="beach">
           🏖️{" "}
         </span>{" "}
-        travel recommendor{" "}
+        travel and chill{" "}
       </h1>
-      <h3 className="container container-center"> What type of destination?</h3>
+      <div className="container container-center">
+        Check out my favourite desitnations and their reviews.
+      </div>
       <ul className="container container-center">
         {themes.map(function (theme) {
           return (
@@ -75,6 +77,9 @@ export default function App() {
           })}
         </ul>
       }
+      <footer className="container container-center">
+        Made with love 💖 by Mritunjay
+      </footer>
     </div>
   );
 }
